@@ -40,3 +40,8 @@ code.inline {
 	border-radius: 4px;
 	background-color: #EFEFEF;
 }
+
+.small {
+	font-size: 0.5em;
+	line-height: 1.4em;
+}
