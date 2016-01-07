@@ -26,6 +26,13 @@ q.center {
 	font-size: 128px;
 }
 
+h1.title-big {
+	font-size: 5rem;
+	text-align: center;
+	position: relative;
+	top: calc(50% - 2.5rem);
+}
+
 h2.title-center {
 	font-size: 3rem;
 	text-align: center;
