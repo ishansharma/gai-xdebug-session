@@ -1,0 +1,9 @@
+q ul {
+	list-style: disc;
+	padding-left: 70px;
+	padding-top: 20px;
+}
+
+q.center {
+	text-align: center;
+}
