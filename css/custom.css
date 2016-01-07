@@ -1,11 +1,20 @@
-q ul {
-	list-style: disc;
-	padding-left: 70px;
-	padding-top: 20px;
+ul {
+	list-style: disc !important;
+	padding-left: 70px !important;
+	padding-top: 20px !important;
+}
+
+ul li {
+	line-height: 2rem;
+	padding-bottom: 1.2rem;
 }
 
 q.center {
 	text-align: center;
+}
+
+.slide-image {
+	height: 350px;
 }
 
 #title span.try {
@@ -15,4 +24,19 @@ q.center {
 
 #title h1.heading {
 	font-size: 128px;
+}
+
+h2.title-center {
+	font-size: 3rem;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+code.inline {
+	font-family: monospace;
+	margin: auto 15px;
+	border: 1px solid #CCC;
+	padding: 3px;
+	border-radius: 4px;
+	background-color: #EFEFEF;
 }

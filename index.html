@@ -26,7 +26,10 @@
 
 <div id="impress">
     <div id="intro" class="step slide" data-x="-1000" data-y="-1500">
-        <q class="center">Debugging like a Rockstar with <b>Xdebug</b>!</q>
+        <q class="center">
+            Debugging like a Rockstar with <b>Xdebug</b>!<br />
+            <img class="slide-image" src="img/rockstar-baby.jpg">
+        </q>
     </div>
 
     <div class="step slide" data-x="0" data-y="-1500">
@@ -40,19 +43,34 @@
         </q>
     </div>
 
-    <div class="step slide" data-x="1000" data-y="-1500">
-        <q>
-            <h2>Remote Debugging</h1>
-            <ul>
-                <li>See program state within your text-editor/IDE</li>
-                <li>Set breakpoints</li>
-            </ul>
-        </q>
-    </div>
-
     <div id="title" class="step" data-x="0" data-y="0" data-scale="2">
         <span class="try">Everyone...</span>
         <h1 class="heading">Start Sublime Text!</h1>
+    </div>
+
+    <div id="sublime-package-control" class="step slide" data-x="1500" data-y="0">
+        <h2 class="title-center">Install Package Control</h2>
+        <p>
+            Sublime Text plugins (called Packages) can be installed in multiple ways. Easiest way is Package Control.
+            <ul>
+                <li>Go to <a href="http://packagecontrol.io/">http://packagecontrol.io/</a></li>
+                <li>Copy the code for your version of ST</li>
+                <li>In ST, press <code class="inline">Ctrl + `</code>, paste code, press Enter</li>
+                <li>ST asking for resart multiple times is normal!</li>
+            </ul>
+        </p>
+    </div>
+
+    <div class="step slide" data-x="2500" data-y="0">
+        <h2 class="title-center">Install Xdebug Client</h2>
+        <p>
+            Now that we have <b>Package Control</b>, installing any plugin is just a few keystrokes away!
+            <ul>
+                <li>Go to Preferences &rarr; Package Control or press <code class="inline">Ctrl + Shift + P</code></li>
+                <li>Type <code class="inline">Install</code>, select <code class="inline">Install Package</code>, hit Enter</li>
+                <li>Type <code class="inline">xdebug</code>, hit Enter</li>
+            </ul>
+        </p>
     </div>
 
 </div>
