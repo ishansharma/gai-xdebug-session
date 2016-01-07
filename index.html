@@ -73,6 +73,53 @@
         </p>
     </div>
 
+    <div id="xdebug-intro" class="step" data-x="3500" data-y="2000" data-rotate="90" data-scale="3">
+        <span class="try">On to</span>
+        <h1 class="heading">Xdebug</h1>
+    </div>
+
+    <div id="xdebug-install" class="step slide" data-x="3500" data-y="2500" data-rotate="90">
+        <h2 class="title-center">
+            Let's Install Xdebug
+        </h2>
+        <ul>
+            <li>Ubuntu/Mint: <code class="inline">sudo apt-get install php5-xdebug</code></li>
+            <li>Others: PECL.</li>
+            <li>Open <code class="inline">php.ini</code> or <code class="inline">20-xdebug.ini</code></li>
+        </ul>
+    </div>
+
+    <div id="xdebug-config" class="step slide" data-x="3500" data-y="3500" data-rotate="90">
+        <h2 class="title-center">
+            Paste these lines at end of config file
+        </h2>
+        <pre>
+            <code class>
+                xdebug.remote_enable = on
+                xdebug.remote_connect_back = on
+                xdebug.idekey = "sublime.xdebug"
+            </code>
+        </pre>
+        <p>Save config file, restart apache</p>
+    </div>
+
+    <div id="into-browser" class="step" data-x="2500" data-y="4500" data-rotate="180" data-scale="3">
+        One More Step, Promise!
+    </div>
+
+    <div id="browser-extensions" class="step slide" data-x="1500" data-y="4500" data-rotate="180">
+        <h2 class="title-center">
+            You need a browser extension
+        </h2>
+        <ul>
+            <li><b>Firefox</b>: <a href="https://addons.mozilla.org/en-US/firefox/addon/the-easiest-xdebug/">The Easiest XDebug</a></li>
+            <li><b>Chrome</b>: <a href="https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc">Xdebug Helper</a><sup>*</sup></li>
+        </ul>
+        <p class="small"><sup>*</sup> - I don't use Chrome, so this has no guarantee of working. You can try other extensions. Just set IDE Key/relevant setting to <code class="inline">sublime.xdebug</code></p>
+    </div>
+
+
+
 </div>
 
 <script>
