@@ -7,3 +7,12 @@ q ul {
 q.center {
 	text-align: center;
 }
+
+#title span.try {
+	top: -1.5em;
+	left: 0;
+}
+
+#title h1.heading {
+	font-size: 128px;
+}
